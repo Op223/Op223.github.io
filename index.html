@@ -19,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta name="description" content="愿你成为自己喜欢的模样，不抱怨，不将就，有自由，有光芒">
@@ -76,6 +76,7 @@
   </style>
 </noscript>
 
+<link rel="alternate" href="/atom.xml" title="MINGYANHONG" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -190,7 +191,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-09-12 16:40:24 / 修改时间：16:43:56" itemprop="dateCreated datePublished" datetime="2020-09-12T16:40:24+08:00">2020-09-12</time>
+              <time title="创建时间：2020-09-12 16:40:24 / 修改时间：17:25:00" itemprop="dateCreated datePublished" datetime="2020-09-12T16:40:24+08:00">2020-09-12</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -228,168 +229,14 @@
 </li>
 </ol>
 <h3 id="1-5-变量的作用"><a href="#1-5-变量的作用" class="headerlink" title="1.5 变量的作用"></a>1.5 变量的作用</h3><p>变量是在内存中划分出来一定的区域用于储存数据</p>
-<h1 id="二、变量和数据类型"><a href="#二、变量和数据类型" class="headerlink" title="二、变量和数据类型"></a>二、变量和数据类型</h1><h2 id="2、定义变量（16）"><a href="#2、定义变量（16）" class="headerlink" title="2、定义变量（16）"></a>2、定义变量（16）</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#变量定义的方法为赋值符右侧数值赋值到赋值符左侧的变量</span></span><br><span class="line">变量名 = 值</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>变量名自定义，要满足标识符命名规则。</p>
-</blockquote>
-<h3 id="2-1-标识符"><a href="#2-1-标识符" class="headerlink" title="2.1 标识符"></a>2.1 标识符</h3><p>标识符命名规则是Python中定义各种名字时候的统一规范</p>
-<ul>
-<li>由数字、字母、下划线组成</li>
-<li>不能以数字开头</li>
-<li>不能使用内置关键字【Python保留字】</li>
-<li>严格区分大小写</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th align="center"><strong>False</strong></th>
-<th align="center"><strong>None</strong></th>
-<th align="center"><strong>True</strong></th>
-<th align="center"><strong>and</strong></th>
-<th align="center"><strong>as</strong></th>
-<th align="center"><strong>assert</strong></th>
-<th align="center"><strong>break</strong></th>
-<th align="center"><strong>class</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><strong>continue</strong></td>
-<td align="center"><strong>def</strong></td>
-<td align="center"><strong>del</strong></td>
-<td align="center"><strong>elif</strong></td>
-<td align="center"><strong>else</strong></td>
-<td align="center"><strong>except</strong></td>
-<td align="center"><strong>finally</strong></td>
-<td align="center"><strong>for</strong></td>
-</tr>
-<tr>
-<td align="center"><strong>from</strong></td>
-<td align="center"><strong>global</strong></td>
-<td align="center"><strong>if</strong></td>
-<td align="center"><strong>import</strong></td>
-<td align="center"><strong>in</strong></td>
-<td align="center"><strong>is</strong></td>
-<td align="center"><strong>lambda</strong></td>
-<td align="center"><strong>nonlocal</strong></td>
-</tr>
-<tr>
-<td align="center"><strong>not</strong></td>
-<td align="center"><strong>or</strong></td>
-<td align="center"><strong>pass</strong></td>
-<td align="center"><strong>raise</strong></td>
-<td align="center"><strong>return</strong></td>
-<td align="center"><strong>try</strong></td>
-<td align="center"><strong>while</strong></td>
-<td align="center"><strong>with</strong></td>
-</tr>
-<tr>
-<td align="center"><strong>yield</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-</tbody></table>
-<h3 id="2-2-命名习惯"><a href="#2-2-命名习惯" class="headerlink" title="2.2 命名习惯"></a>2.2 命名习惯</h3><ul>
-<li><p>见名知意</p>
-</li>
-<li><p>大驼峰：即每个单词首字母都大写，例如：MyName</p>
-</li>
-<li><p>小驼峰：第二个（含）以后的单词首字母大写，例如：myName</p>
-</li>
-<li><p>下划线：例如：my_name</p>
-</li>
-</ul>
-<h3 id="2-3-Debug工具"><a href="#2-3-Debug工具" class="headerlink" title="2.3 Debug工具"></a>2.3 Debug工具</h3><p>在行号后面点击鼠标左键可以下断点，右键代码选择“dbg 项目名”</p>
-<p>Debugger为变量等查看窗口，Console为调试输出窗口</p>
-<p><strong>Step Over</strong>：在单步执行时，在函数内遇到子函数时不会进入子函数内单步执行，而是将子函数整个执行完再停止，也就是把子函数整个作为一步。有一点,经过我们简单的调试,在不存在子函数的情况下是和step into效果一样的（简而言之，越过子函数，但子函数会执行）。</p>
-<p><strong>Step Into</strong>：单步（一步一步）执行，遇到子函数就进入并且继续单步执行（简而言之，进入子函数）；</p>
-<p><strong>Step Out</strong>：当单步执行到子函数内时，用step out就可以执行完子函数余下部分，并返回到上一层函数。</p>
-<h3 id="2-4-数据类型"><a href="#2-4-数据类型" class="headerlink" title="2.4 数据类型"></a>2.4 数据类型</h3><ol>
-<li><p><strong>数值型：</strong>int整型、float浮点型</p>
-</li>
-<li><p><strong>布尔（bool）型</strong>：Ture（真）、False（假）</p>
-</li>
-<li><p><strong>字符串型</strong>：str</p>
-</li>
-<li><p>列表型：list</p>
-</li>
-<li><p>元组型：tuple</p>
-</li>
-<li><p>集合型：set</p>
-</li>
-<li><p>字典型：dict【存储的都是键值对类型的】</p>
-</li>
-</ol>
-<h3 id="2-5-输出-格式化符号"><a href="#2-5-输出-格式化符号" class="headerlink" title="2.5 输出_格式化符号"></a>2.5 输出_格式化符号</h3><p><strong>格式符号</strong>，按照一定的格式输出内容。</p>
-<table>
-<thead>
-<tr>
-<th align="center">格式符号</th>
-<th align="center">转换</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><strong>%s</strong></td>
-<td align="center"><strong>字符串</strong></td>
-</tr>
-<tr>
-<td align="center"><strong>%d</strong></td>
-<td align="center"><strong>有符号的十进制整数</strong></td>
-</tr>
-<tr>
-<td align="center"><strong>%f</strong></td>
-<td align="center"><strong>浮点数</strong></td>
-</tr>
-<tr>
-<td align="center">%c</td>
-<td align="center">字符</td>
-</tr>
-<tr>
-<td align="center">%u</td>
-<td align="center">无符号的十进制数</td>
-</tr>
-<tr>
-<td align="center">%o</td>
-<td align="center">八进制整数</td>
-</tr>
-<tr>
-<td align="center">%x</td>
-<td align="center">十六进制整数（小写ox）</td>
-</tr>
-<tr>
-<td align="center">%X</td>
-<td align="center">十六进制整数（大写OX）</td>
-</tr>
-<tr>
-<td align="center">%e</td>
-<td align="center">科学计数法（ 小写’e’）</td>
-</tr>
-<tr>
-<td align="center">%E</td>
-<td align="center">科学计数法（大写’E’）</td>
-</tr>
-<tr>
-<td align="center">%g</td>
-<td align="center">%f和%e的简写</td>
-</tr>
-<tr>
-<td align="center">%G</td>
-<td align="center">%f和%E的简写</td>
-</tr>
-</tbody></table>
-<blockquote>
-<ul>
-<li>技巧</li>
-<li>%06d，表示输出的整数显示位数，输出6位，不足以0补齐，超出当前位数的话为原数据输出</li>
-<li>%.2f，表示小数点后面的显示位数</li>
-</ul>
-</blockquote>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/09/12/Python%E7%AC%94%E8%AE%B0-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-%E5%8F%98%E9%87%8F/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -433,7 +280,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-09-12 15:57:57 / 修改时间：16:00:27" itemprop="dateCreated datePublished" datetime="2020-09-12T15:57:57+08:00">2020-09-12</time>
+              <time title="创建时间：2020-09-12 15:57:57 / 修改时间：17:25:14" itemprop="dateCreated datePublished" datetime="2020-09-12T15:57:57+08:00">2020-09-12</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -459,10 +306,14 @@
           <h2 id="网络工程常用软件下载地址（2020-9）"><a href="#网络工程常用软件下载地址（2020-9）" class="headerlink" title="网络工程常用软件下载地址（2020.9）"></a>网络工程常用软件下载地址（2020.9）</h2><h4 id="《数据库系统原理应用》"><a href="#《数据库系统原理应用》" class="headerlink" title="《数据库系统原理应用》"></a>《数据库系统原理应用》</h4><p><strong>SQL Server2008 SP2</strong>链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1RcBp2fhGYrAvcKbzex9kiw">https://pan.baidu.com/s/1RcBp2fhGYrAvcKbzex9kiw</a> 【提取码：eomp】</p>
 <h4 id="《Python程序设计》"><a href="#《Python程序设计》" class="headerlink" title="《Python程序设计》"></a>《Python程序设计》</h4><p><strong>Python</strong>-3.8.5 链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1pT2-Qacww5dctb4Dkdx_WQ">https://pan.baidu.com/s/1pT2-Qacww5dctb4Dkdx_WQ</a> 【提取码：oarm】</p>
 <p>IDE <strong>PyCharm</strong> Community Edition 2020.2.1 x64 链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1DAG0CyS1SRg7uTMw1NeE5w">https://pan.baidu.com/s/1DAG0CyS1SRg7uTMw1NeE5w</a> 【提取码：jjaq】</p>
-<h4 id="《数据结构》"><a href="#《数据结构》" class="headerlink" title="《数据结构》"></a>《数据结构》</h4><p><strong>CodeBlocks</strong> 20.3 链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1XXAAoJe7VmbHUvMSWc5chw">https://pan.baidu.com/s/1XXAAoJe7VmbHUvMSWc5chw</a> 【提取码：dhaz】</p>
-<h4 id="【常用软件】"><a href="#【常用软件】" class="headerlink" title="【常用软件】"></a>【常用软件】</h4><p>VSCODE 链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1Y4SlMK0iwCxfcQDJStz0ig">https://pan.baidu.com/s/1Y4SlMK0iwCxfcQDJStz0ig</a> 【提取码：qg5m】</p>
-<p>notepad++ 20.8链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1X2O1FLK7oHW2ynv8csilPw">https://pan.baidu.com/s/1X2O1FLK7oHW2ynv8csilPw</a> 【提取码：kyzj】</p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/09/12/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD2020-09/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 

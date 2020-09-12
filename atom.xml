@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>MINGYANHONG</title>
+  
+  <subtitle>记录成长</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2020-09-12T09:25:00.602Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>MINGYANHONG</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python笔记:开发环境-变量</title>
+    <link href="http://example.com/2020/09/12/Python%E7%AC%94%E8%AE%B0-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-%E5%8F%98%E9%87%8F/"/>
+    <id>http://example.com/2020/09/12/Python%E7%AC%94%E8%AE%B0-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83-%E5%8F%98%E9%87%8F/</id>
+    <published>2020-09-12T08:40:24.000Z</published>
+    <updated>2020-09-12T09:25:00.602Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;一、开发环境和安装介绍&quot;&gt;&lt;a href=&quot;#一、开发环境和安装介绍&quot; class=&quot;headerlink&quot; title=&quot;一、开发环境和安装介绍&quot;&gt;&lt;/a&gt;一、开发环境和安装介绍&lt;/h2&gt;&lt;h2 id=&quot;1、解释器的作用：运行文件&quot;&gt;&lt;a href=&quot;#1、解释器的作用：运行文件&quot; class=&quot;headerlink&quot; title=&quot;1、解释器的作用：运行文件&quot;&gt;&lt;/a&gt;1、解释器的作用：运行文件&lt;/h2&gt;&lt;p&gt;解释器是把程序员的程序通过解释器翻译成计算机等读懂的二进制语言。（作用类似于翻译官）&lt;/p&gt;
+&lt;h3 id=&quot;1-1-解释器分类：&quot;&gt;&lt;a href=&quot;#1-1-解释器分类：&quot; class=&quot;headerlink&quot; title=&quot;1.1 解释器分类：&quot;&gt;&lt;/a&gt;1.1 解释器分类：&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;CPython，C语言开发的解释器[官方]，应用的广泛解释器。（主用）&lt;/li&gt;
+&lt;li&gt;IPython，基于CPython的一种交互式解释器。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;1-2-下载Python解释器：https-www-python-org-downloads&quot;&gt;&lt;a href=&quot;#1-2-下载Python解释器：https-www-python-org-downloads&quot; class=&quot;headerlink&quot; title=&quot;1.2 下载Python解释器：https://www.python.org/downloads/&quot;&gt;&lt;/a&gt;1.2 下载Python解释器：&lt;a href=&quot;https://www.python.org/downloads/&quot;&gt;https://www.python.org/downloads/&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;注意，安装时勾选Add Python 7.0 to PATH 添加Python3.7到环境变量&lt;/p&gt;
+&lt;p&gt;下载安装PyCharm Community（社区版）作为IDE（集成开发环境）&lt;/p&gt;
+&lt;h3 id=&quot;1-3-新建项目，项目类型为-py，选择好解释器版本&quot;&gt;&lt;a href=&quot;#1-3-新建项目，项目类型为-py，选择好解释器版本&quot; class=&quot;headerlink&quot; title=&quot;1.3 新建项目，项目类型为.py，选择好解释器版本&quot;&gt;&lt;/a&gt;1.3 新建项目，项目类型为.py，选择好解释器版本&lt;/h3&gt;&lt;h3 id=&quot;1-4-注释的方法，作用：增强程序可读性，便于协同开发及后期代码维护&quot;&gt;&lt;a href=&quot;#1-4-注释的方法，作用：增强程序可读性，便于协同开发及后期代码维护&quot; class=&quot;headerlink&quot; title=&quot;1.4 注释的方法，作用：增强程序可读性，便于协同开发及后期代码维护&quot;&gt;&lt;/a&gt;1.4 注释的方法，作用：增强程序可读性，便于协同开发及后期代码维护&lt;/h3&gt;&lt;p&gt;注释的方法：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;# 注释内容 – 单行注释&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;‘’’ 注释内容 ‘’’ – 多行（段落）注释&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;1-5-变量的作用&quot;&gt;&lt;a href=&quot;#1-5-变量的作用&quot; class=&quot;headerlink&quot; title=&quot;1.5 变量的作用&quot;&gt;&lt;/a&gt;1.5 变量的作用&lt;/h3&gt;&lt;p&gt;变量是在内存中划分出来一定的区域用于储存数据&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Python学习笔记" scheme="http://example.com/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Python" scheme="http://example.com/tags/Python/"/>
+    
+    <category term="编程" scheme="http://example.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="学习笔记" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常用软件下载2020-09</title>
+    <link href="http://example.com/2020/09/12/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD2020-09/"/>
+    <id>http://example.com/2020/09/12/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD2020-09/</id>
+    <published>2020-09-12T07:57:57.000Z</published>
+    <updated>2020-09-12T09:25:14.453Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;网络工程常用软件下载地址（2020-9）&quot;&gt;&lt;a href=&quot;#网络工程常用软件下载地址（2020-9）&quot; class=&quot;headerlink&quot; title=&quot;网络工程常用软件下载地址（2020.9）&quot;&gt;&lt;/a&gt;网络工程常用软件下载地址（2020.9）&lt;/h2&gt;&lt;h4 id=&quot;《数据库系统原理应用》&quot;&gt;&lt;a href=&quot;#《数据库系统原理应用》&quot; class=&quot;headerlink&quot; title=&quot;《数据库系统原理应用》&quot;&gt;&lt;/a&gt;《数据库系统原理应用》&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;SQL Server2008 SP2&lt;/strong&gt;链接：&lt;a href=&quot;https://pan.baidu.com/s/1RcBp2fhGYrAvcKbzex9kiw&quot;&gt;https://pan.baidu.com/s/1RcBp2fhGYrAvcKbzex9kiw&lt;/a&gt; 【提取码：eomp】&lt;/p&gt;
+&lt;h4 id=&quot;《Python程序设计》&quot;&gt;&lt;a href=&quot;#《Python程序设计》&quot; class=&quot;headerlink&quot; title=&quot;《Python程序设计》&quot;&gt;&lt;/a&gt;《Python程序设计》&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt;-3.8.5 链接：&lt;a href=&quot;https://pan.baidu.com/s/1pT2-Qacww5dctb4Dkdx_WQ&quot;&gt;https://pan.baidu.com/s/1pT2-Qacww5dctb4Dkdx_WQ&lt;/a&gt; 【提取码：oarm】&lt;/p&gt;
+&lt;p&gt;IDE &lt;strong&gt;PyCharm&lt;/strong&gt; Community Edition 2020.2.1 x64 链接：&lt;a href=&quot;https://pan.baidu.com/s/1DAG0CyS1SRg7uTMw1NeE5w&quot;&gt;https://pan.baidu.com/s/1DAG0CyS1SRg7uTMw1NeE5w&lt;/a&gt; 【提取码：jjaq】&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="常用软件下载" scheme="http://example.com/categories/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD/"/>
+    
+    
+    <category term="软件下载" scheme="http://example.com/tags/%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD/"/>
+    
+  </entry>
+  
+</feed>
